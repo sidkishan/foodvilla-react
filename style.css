@@ -1,0 +1,127 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  border: 1px solid gray;
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.header > a {
+  width: 80px;
+}
+.logo {
+  width: 100%;
+}
+.header > button {
+  box-sizing: border-box;
+  width: 60px;
+}
+
+.nav-items ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 30px 0;
+}
+.nav-items > ul > li {
+  text-align: center;
+}
+.nav-items > ul > li > a {
+  text-decoration: none;
+  text-align: center;
+  padding: 5px 25px;
+  border-radius: 8px;
+}
+.active {
+  background-color: #ebe4d1;
+}
+.restaurant-list,
+.cards-container {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+.shimmer-card,
+.card {
+  box-sizing: border-box;
+  width: 480px;
+
+  padding: 10px 20px;
+  background-color: lightgray;
+  border: 1px solid black;
+}
+.search-area {
+  margin: 10px 15px;
+}
+.card > img {
+  width: 440px;
+  height: 350px;
+}
+.cards-container {
+  background-color: #f7f7f7;
+}
+.card {
+  background-color: lightgrey;
+}
+.shimmer-card {
+  height: 500px;
+}
+.cards-container > a {
+  text-decoration: none;
+  cursor: pointer;
+}
+.restaurant-menu > img {
+  width: 600px;
+  height: 400px;
+}
+.profile-class {
+  border: 1px solid red;
+}
+#cart-item-circle {
+  background-color: tomato;
+  padding: 3px 6px;
+  border-radius: 20px;
+  margin: 4px;
+}
+.menu-item {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.menu-item > button {
+  padding: 5px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  border: 1px solid lightgray;
+  background-color: #f7f7f7;
+  color: green;
+}
+.items-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+}
+.clear-cart {
+  display: inline;
+  padding: 10px 20px;
+  margin: 20px 20px;
+  cursor: pointer;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
