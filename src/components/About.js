@@ -1,4 +1,3 @@
-import { Outlet } from "react-router-dom";
 import ProfileClass from "./ProfileClass";
 // import React from "react";
 import { Component } from "react";
